@@ -1,161 +1,193 @@
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content=width=device-width, initial-scale=1.0">
 <title>Chronos - Gereciador de Tempo</title>
-<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;1,300&family=Pathway+Gothic+One&family=Roboto:wght@100&family=Russo+One&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
-
+<script src="scripts.js" defer></script>
 </head>
 
 
 
-<header>
 
-  <div id="destaque">
-    
-    
-    <h1><a href="index.html">CHRONOS </a></h1>
-    <img src="17695 [Converted]-05.png" alt="pt" width="150px">
-    
-  </div>
-   
-  
-    
-  <img src="17695 [Converted]-04.png" alt="foto" id="foto">
 
-  
+
+
+<body>
+  <header>
+
+    <div id="destaque">
       
-
-   
-    
-
-
-    <div id="botoes">
-   
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-          <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-        </svg>
-       
-       
-
-
       
-     
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16" id="teste1">
-          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
-         
-        </svg>
-        
-        
-              
-            
-              
+      <h1><a href="index.html">CHRONOS </a></h1>
+      <img src="17695 [Converted]-05.png" alt="pt"  >
+      
     </div>
+     
     
+      <div id="img-ref">
+
+        <img src="17695 [Converted]-04.png" alt="foto" id="foto">
+
+      </div>
+    
+  
+    
+        
+  
+     
+      
+  
+  
+      <div id="botoes">
+     
+         
+
+          <div class="profile">
+            <a href="#"><img src="profile/2.png" alt="profile-1"></a>
+            <p ><a href="#">Perfil</a></p>
+          </div>
+          
+         
+  
+        
+          
+        
+          
+                
+              
+                
+      </div>
+      
+      
+  
+      </button>
+  
+  </header>
+
+  <nav class="opcoes">
     
 
-    </button>
+    <ul id="menu">
+  
+    <li id="op"><a href="index.html">HOME</a></li>
+    <li id="op"><a href="rotina.html">ROTINA</a></li>
+    <li id="op"><a href="sobre.html">SOBRE</a></li>
+    </ul>
+  
+    
+  
+  
+  
+  </nav>
 
-</header>
+  <!-----FIM MENU-------->
 
-<div class="opcoes">
 
  
 
-<ul id="menu">
+  <main id="conteudo">
 
-<li id="op"><a href="index.html">HOME</a></li>
-<li id="op"><a href="rotina.html">ROTINA</a></li>
-<li id="op"><a href="sobre.html">SOBRE</a></li>
-</ul>
+    
+    
 
-<div class="pesquisa">
-   
-    <input type="text" placeholder="Pesquisar">
-    <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-      </svg></button>
+     <div id="teste">
 
-</div>
+      
 
+      
+     
+     
 
-
-</div>
-
-<body id="bodsobre">
-    <div id="conteudo">
-        <h1>O problema</h1>
-    <p>
+      <div class="alinhamento">
         
-        Uma pesquisa realizada pela ISMA-BR (International Stress Management Association Brasil), entidade internacional dedicada à prevenção e estudo do estresse, aponta que 62% dos brasileiros sofrem com a falta de tempo devido à sobrecarga e ao excesso de tarefas no dia a dia. Outro estudo conduzido pela entidade conclui que 30% dos profissionais no País já desenvolveram a ‘Síndrome de Burnout’, um esgotamento físico e mental que pode causar problemas cardíacos, depressão, transtornos do sono e ansiedade,cuja causa está intimamente ligada à vida profissional. O nosso principal foco é sem dúvida alguma, é proporcionar uma qualidade de vida para nossos usuários.
-       
-        <p><a href="https://administradores.com.br/noticias/falta-de-tempo-afeta-62-dos-brasileiros"></a>Fonte: https://administradores.com.br/noticias/falta-de-tempo-afeta-62-dos-brasileiros</p>
-
-    </p>
-    </div>
-    <div id="conteudo">
-        <h1>Sobre o projeto</h1>
+        <div id="sobre">
+          <h1>O problema</h1>
         <p>
-    
-            Vivemos em uma sociedade cada vez mais caótica e acelerada onde a maioria das pessoas tem várias obrigações diariamente tornando o ato de focar ou priorizar certas tarefas extremamente difíceis. Mesmo com rotinas cheias de afazeres, encontramos um mundo cheio de distrações que acabam sugando boa parte do precioso tempo que nós temos, é muito comum você ver uma pessoa que está sempre conectada em uma rede social (Whatsapp, Instagram, Twitter) e acaba se desconectando do mundo real.
-     Foi pensando nisso que pensamos no tema de gerenciamento de tempo, e começamos a desenvolver uma ferramenta que poderá proporcionar uma qualidade de vida melhor para nossos usuários, organizando melhor o tempo para vencer cada dia com muito mais tranquilidade.
-    
-        </p>
-
-    </div>
-    
-   
-    
-  
-    <div id="cont">
-        <h1>Desenvolvedores</h1>
-
-    </div> 
-    <div id="desen">
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Julia Heloisa</p>
-        </div>
-
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Thiago Parreiras</p>
-        </div id="d">
-
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Augusto Maiello </p>
-        </div id="d">
-       
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Arthur Fernandes Souza </p>
-        </div>
-
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Lucas Emanuel</p>
-        </div>
-
-        <div id="d">
-            <img src="profile.png" alt="profile" width="150px">
-            <p>Ryan</p>
-        </div>
-
-    </div> 
+          
+          Uma pesquisa realizada pela ISMA-BR (International Stress Management Association Brasil), entidade internacional dedicada à prevenção e estudo do estresse, aponta que 62% dos brasileiros sofrem com a falta de tempo devido à sobrecarga e ao excesso de tarefas no dia a dia. Outro estudo conduzido pela entidade conclui que 30% dos profissionais no País já desenvolveram a ‘Síndrome de Burnout’, um esgotamento físico e mental que pode causar problemas cardíacos, depressão, transtornos do sono e ansiedade,cuja causa está intimamente ligada à vida profissional. O nosso principal foco é sem dúvida alguma, é proporcionar uma qualidade de vida para nossos usuários.
+         
+          <p><a href="https://administradores.com.br/noticias/falta-de-tempo-afeta-62-dos-brasileiros"></a>Fonte: https://administradores.com.br/noticias/falta-de-tempo-afeta-62-dos-brasileiros</p>
         
-       
-
-
+        </p>
+        </div>
+        <div id="sobre">
+          <h1>Sobre o projeto</h1>
+          <p>
+        
+              Vivemos em uma sociedade cada vez mais caótica e acelerada onde a maioria das pessoas tem várias obrigações diariamente tornando o ato de focar ou priorizar certas tarefas extremamente difíceis. Mesmo com rotinas cheias de afazeres, encontramos um mundo cheio de distrações que acabam sugando boa parte do precioso tempo que nós temos, é muito comum você ver uma pessoa que está sempre conectada em uma rede social (Whatsapp, Instagram, Twitter) e acaba se desconectando do mundo real.
+        Foi pensando nisso que pensamos no tema de gerenciamento de tempo, e começamos a desenvolver uma ferramenta que poderá proporcionar uma qualidade de vida melhor para nossos usuários, organizando melhor o tempo para vencer cada dia com muito mais tranquilidade.
+        
+          </p>
+        
+        </div>
+        
+        
+        
+        
+        <div id="cont">
+          <h1>Desenvolvedores</h1>
+        
+        </div> 
+        <div id="desen">
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Julia Heloisa</p>
+          </div>
+        
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Thiago Parreiras</p>
+          </div id="d">
+        
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Augusto Maiello </p>
+          </div id="d">
+         
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Arthur  Souza </p>
+          </div>
+        
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Lucas Emanuel</p>
+          </div>
+        
+          <div id="d">
+              <img src="profile.png" alt="profile" width="150px">
+              <p>Ryan</p>
+          </div>
+        
+        </div> 
+          
+         
+        
+        
+        </div>
+      
+      
+      
+      </div>
+  
+     
+    
+    
     </div>
     
 
 
 
+
+  </main>
   
   <footer>
 
@@ -168,8 +200,7 @@
       </div>
       
 
-    </div>
-    <div>
+    </div>  
 
     
     </div>
@@ -178,11 +209,12 @@
     <div id="pu">
       
    
-      <div>
+      <div class="conteudo-text">
        
 
         <p>PUC MINAS - Barreiro</p>
-        <p>COPYRIGHT © 2021 TODOS OS DIREITOS RESERVADOS.</p>
+        <p class="copy">COPYRIGHT © 2021 TODOS OS DIREITOS RESERVADOS.</p>
+        
 
         
 
@@ -191,7 +223,7 @@
 
       
       
-      <img src="puc.png" alt="puc" width="110px">
+      <img src="puc.png" alt="puc" width="100px" height="80px">
      
       
     </div>
